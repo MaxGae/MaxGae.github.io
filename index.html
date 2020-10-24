@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patients Tracer App</title>
+    <link rel="stylesheet" href="./Styles/styles.css" />
+  </head>
+  <body>
+    <h1>Scheda Paziente</h1>
+    <form>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname">
+      <br><br>
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname">
+      <br><br>
+      <label for="gender">Select Gender:</label>
+      <select name="gender" id="gender">  
+        <option value="None"></option>     
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+      </select>
+      <br><br>
+      <label for="bdate">Birth Date:</label>
+      <input type="bdate" id="bdate" name="bdate">
+      <br><br>
+      <br><br>
+      <button id = "create">Create New Patient</button> 
+    </form>
+    <script src="./JavaScript/index.js"></script>
+  </body>
+</html>
