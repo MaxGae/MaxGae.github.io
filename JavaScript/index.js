@@ -14,7 +14,7 @@ function createNewPatient(){
                                   document.getElementById('lname').value,
                                   document.getElementById('gender').value,
                                   document.getElementById('bdate').value);
-    console.log(new_patient.fname + new_patient.lname + new_patient.gender + new_patient.bdate);
+    window.alert(new_patient.fname + new_patient.lname + new_patient.gender + new_patient.bdate);
 }
 
 function uploadPatient(){
