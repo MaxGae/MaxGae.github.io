@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./Styles/styles.css" />
   </head>
   <body>
-    <h1>Scheda Paziente</h1>
+    <h1>Patient Form</h1>
     <form>
       <label for="fname">First name:</label>
       <input type="text" id="fname" name="fname">
@@ -25,8 +25,12 @@
       <br><br>
       <br><br>
       <br><br>
-      <button id = "create">Create New Patient</button> 
+      <button type="button" onclick="createNewPatient()">Create New Patient</button> 
+      <button type="button" onclick="uploadPatient()">Upload Patient</button>
+      <br><br>
+      <br><br>
     </form>
     <script src="./JavaScript/index.js"></script>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.7.16.min.js"></script>
   </body>
 </html>
