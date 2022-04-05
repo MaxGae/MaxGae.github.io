@@ -1,1 +1,11 @@
-
+{
+    "items": [
+        {
+            "Product": "Nome del prodotto",
+            "Info": "Riferimento alla marca e al modello",
+            "Image": "link all'immagine",
+            "Link": "Link al prodotto",
+            "Reservation": "True, False",
+        },        
+    ]
+} 
