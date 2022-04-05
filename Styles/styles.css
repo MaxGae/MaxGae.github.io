@@ -10,5 +10,4 @@ table, th, td {
   border: 1px solid;
   width: 100%;
   text-align: center;
-  tr:hover {background-color: coral;}
 }
