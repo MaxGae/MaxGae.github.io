@@ -11,3 +11,4 @@ table, th, td {
   width: 100%;
   text-align: center;
 }
+tr:hover {background-color: coral;}
